@@ -77,8 +77,9 @@ Since the entire application is in one file:
 ```
 safe-sphere-secure-app/
 │
-├── app.py        # Complete application (Backend + Frontend + Security)
-├── users.db      # Auto-created SQLite database
+├── app.py            # Complete application (Backend + Frontend + Security)
+├── users.db          # Auto-created SQLite database
+├── requirements.txt
 └── README.md
 ```
 
@@ -86,7 +87,7 @@ safe-sphere-secure-app/
 
 1️⃣ Install Dependencies
 ```
-pip install flask bcrypt
+pip install -r requirements.txt
 ```
 
 2️⃣ Run the Application
